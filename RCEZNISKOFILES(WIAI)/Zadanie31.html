@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie32</title>
+    <link rel="stylesheet" href="Zadanie31.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center>
+        <form id="form1" name="nazwa_formularza">
+            <input id="zegar" maxlength="8" size="6" type="text" value="" name="pole">    
+           </form>
+    <form>
+        <p>Imię</p>
+        <input id="imie" type="text" name="imie" placeholder="Imię">
+         
+        <p>Nazwisko</p>
+        <input id="nazwisko" type="text" name="Nazwisko" placeholder="Nazwisko">
+           
+        <p>Wiek</p>
+        <input id="wiek" type="number" name="wiek" placeholder="Wiek">
+
+        <p>Płeć</p>
+        <input type="radio" name="plec" value="man"> Man
+        <input type="radio" name="plec" value="woman"> Woman
+              
+        <p>Hobby</p>
+        <input type="checkbox" name="zainteresowania" value="gry"> Gry
+        <input type="checkbox" name="zainteresowania" value="muzyka"> Muzyka
+        <input type="checkbox" name="zainteresowania" value="Malowanie"> Malowanie
+        <input type="checkbox" name="zainteresowania" value="programowanie"> Programowanie
+           
+        <p>Komentarz</p>
+        <textarea name="nazwa" cols="20" rows="3" placeholder="Maksymalnie 250 znaków.."></textarea>
+           
+        <input id="input1" type="reset" value="WYCZYŚĆ">
+        <input id="input2" type="button" value="WYŚLIJ" onclick="showInput()">
+    </form>
+    <p id="output"></p>
+</center>
+
+
+    <script>
+        function showInput() {
+            var imie = document.getElementById("imie").value;
+            var nazwisko = document.getElementById("nazwisko").value;
+            var wiek = document.getElementById("wiek").value;
+            var plec = document.querySelector('input[name="plec"]:checked').value;
+            var zainteresowania = document.querySelectorAll('input[name="zainteresowania"]:checked');
+            var komentarz = document.querySelector('textarea[name="nazwa"]').value;
+            
+            var output = "Imię: " + imie + "<br>" +
+                         "Nazwisko: " + nazwisko + "<br>" +
+                         "Wiek: " + wiek + "<br>" +
+                         "Płeć: " + plec + "<br>" +
+                         "Zainteresowania: ";
+            
+            for (var i = 0; i < zainteresowania.length; i++) {
+                output += zainteresowania[i].value + ", ";
+            }
+            
+            output += "<br>Komentarz: " + komentarz;
+            
+            document.getElementById("output").innerHTML = output;
+        }
+    </script>
+     <script>
+        function zegar(){
+            let czas = new Date()
+            let godzina = czas.getHours(); if (godzina <=9) { godzina = "0" + godzina}
+            let minuta = czas.getMinutes(); if (minuta <=9) { minuta = "0" + minuta}
+            let sekunda = czas.getSeconds(); if (sekunda <=9) { sekunda = "0" + sekunda}
+            nazwa_formularza.pole.value = godzina + ":" + minuta + ":" + sekunda
+        }
+        setInterval("zegar()", 1000)
+    </script>
+</body>
+</html>

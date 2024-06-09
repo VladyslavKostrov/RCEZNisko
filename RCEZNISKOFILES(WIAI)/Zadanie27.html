@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie27</title>
+    <link rel="stylesheet" href="Zadanie27.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jquery-3.6.1.js"></script>
+    <script src="validate/jquery.validate.js"></script>
+    <script src="validate/messages_pl.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#formularz").validate();
+        });
+    </script>
+</head>
+<body bgcolor="#dfdfdf"> 
+    <form id="formularz">
+        <fieldset>
+<h2> Dane osobowe</h2><br><br>
+
+<b> Nazwisko:</b><br>
+<div><input id="nazw" name="nazw" type="text" class="required" minlength="3"></div>
+<b> Imię:</b><br>
+<div><input id="imie" name="imie" type="text" class="required" minlength="3"></div>
+<b> Zawód:</b><br>
+<div><input id="zaw" name="zaw" type="text" class="required" minlength="2"></div>
+<b> Adres e-mail:</b><br>
+<div><input id="email" name="email" type="text" class="required email"></div>
+<b> Telefon:</b><br>
+<div><input id="tel" name="tel" type="text" class="number required" minlength="9"></div>
+<b> Pracuje:</b><br>
+<div><input id="opcje" name="opcje" type="checkbox" class="required" minlength="1"></div>
+<b> Wiadomość:</b><br>
+<div><textarea id="inf" name="inf" cols="30" rows="5" class="required" minlength="3"></textarea></div><br>
+<input class="submit" type="submit" value="Wyślij"> &nbsp;
+<input type="reset" value="Wyczyść">
+        </fieldset>
+    </form>
+</body>
+</html>

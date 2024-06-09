@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOCKER</title>
+</head>
+<body>
+    <button id="showVideoButton">CLICK ME 1488</button>
+    <div id="content"><video id="explosionVideo" width="320" height="240" controls> <source src="explosion.mp4" type="video/mp4"> sosi </video>
+    <img id="JockerImgae" src="Jocker.jpeg" style="display: none;"></div>
+
+
+    <script>
+        document.getElementById(' showVideoButton').addEventListener('click',function(){
+            const video = document.getElementById('explosionVideo');
+            const image = document.getElementById('JockerImage');
+
+            video.style.display = 'block';
+            video.play();
+
+            this.style.display = 'none'
+
+            video.addEventListener('ended' , function(){
+                video.style.display = 'none';
+                image.style.display = 'block';
+            });
+        });
+    </script>
+
+
+
+
+    <style>
+        #content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+</body>
+</html>

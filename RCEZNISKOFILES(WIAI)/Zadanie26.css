@@ -1,0 +1,16 @@
+#div1{
+    padding: 10px;
+    border-style: double ;
+    border-color: rgb(0, 255, 21);
+    width: 90px;
+}
+#p1{
+    margin: 30px;
+    background-color: rgb(30, 255, 0); 
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px;
+    border-color: rgb(234, 0, 255);
+    border-style:dashed;
+}

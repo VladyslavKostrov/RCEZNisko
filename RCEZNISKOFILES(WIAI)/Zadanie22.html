@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie22</title>
+    <link rel="stylesheet" href="Zadanie22.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet">
+</head>
+<body>
+<center>
+    <form> 
+        <div id="div1">
+        <table id="table1" border="1">
+            <tr>
+                <td id="td1">Liczba 1</td>
+                <td><input type="text" name="Liczba1" placeholder="" id="Liczba1"></td>
+            </tr>
+           
+            <tr>
+                <td>Liczba 2</td>
+                <td><input type="text" name="Liczba2" placeholder="" id="Liczba2"></td>
+            </tr>
+        </table>
+        <table id="table2" border="1">
+            <tr>
+                <td> <button id="button1">dodać</button></td>
+                <td> <button id="button2">odejmować</button></td>
+                <td> <button id="button3">mnożyć</button></td>
+                <td> <button id="button4">dzielić</button></td>
+            </tr>
+        </table>
+        <table>
+            <tr>  <input id="input1" maxlength="8" size="6" type="text" value="" name="pole">    </tr>
+        </table>
+    </div>
+    </form>
+    <form>
+        <table id="table3" border="1">
+            <tr>
+                <td class="td1">Imię</td>
+                <td class="td1"><input type="text" name="imie" placeholder="Imię" id="imie"></td>
+            </tr>
+           
+            <tr>
+                <td class="td1">Nazwisko</td>
+                <td class="td1"><input type="text" name="Nazwisko" placeholder="Nazwisko" id="nazwisko"></td>
+            </tr>
+            <tr>
+                <td class="td1">Wiek</td>
+                <td class="td1"><input type="number" name="wiek" placeholder="wiek" id="wiek"></td>
+            </tr>
+            <tr>
+                <td class="td1">Zainteresowania</td>
+                <td class="td1"><form> 
+                        <input id="checkbox1" type="checkbox" name="zainteresowania" value="gry"> Gry <br>
+                        <input id="checkbox2" type="checkbox" name="zainteresowania" value="muzyka"> Muzyka <br>
+                        <input id="checkbox3" type="checkbox" name="zainteresowania" value="Malowanie"> Malowanie <br>
+                        <input id="checkbox4" type="checkbox" name="zainteresowania" value="programowanie"> Programowanie <br>
+                    </form></td>
+            </tr>
+            <tr>
+                <td class="td1">Komentarz</td>
+                <td class="td1">
+                    <textarea name="nazwa" cols="20" rows="3" id="textarea">
+                        Maksymalnie 250 znaków..
+                    </textarea></td>
+            </tr>
+
+            
+            <tr>
+                <td class="td1">Pryciski:</td>
+                <td class="td1">
+                        <input id="reset" type="reset" value="WYCZYŚC">
+                        <input id="submit" type="submit" value="WYŚLI">
+                </td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie32</title>
+    <link rel="stylesheet" href="Zadanie32.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="center">
+    </div>
+    <div id="left">
+    <a id="idleft1" href="">INDEX</a>
+    <a id="idleft2" href="">STRONA_1</a>
+    <a id="idleft3" href="">STRONA_2</a>
+    </div>
+    <div id="right">
+        <form id="form1" name="nazwa_formularza">
+            <input id="zegar" maxlength="8" size="6" type="text" value="" name="pole">    
+           </form>
+    </div>
+    <div id="bottom">
+        <p id="output"></p>
+    </div>
+    <div id="top">
+        <p id="p1"> LOGO</p>
+    </div>
+
+
+    <script>
+        function zegar(){
+            let czas = new Date()
+            let godzina = czas.getHours(); if (godzina <=9) { godzina = "0" + godzina}
+            let minuta = czas.getMinutes(); if (minuta <=9) { minuta = "0" + minuta}
+            let sekunda = czas.getSeconds(); if (sekunda <=9) { sekunda = "0" + sekunda}
+            nazwa_formularza.pole.value = godzina + ":" + minuta + ":" + sekunda
+        }
+        setInterval("zegar()", 1000)
+    </script>
+    <script>
+          function geeks() {
+            let x = document.lastModified;
+            document.getElementById("sudo").innerHTML = x;
+          }
+    </script>
+</body>
+</html>

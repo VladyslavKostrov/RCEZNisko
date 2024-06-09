@@ -1,0 +1,76 @@
+
+#K{
+    position: relative;
+    left: 20px;
+    bottom: 0px;
+    color: red;
+}
+#L{
+    position: relative;
+    left: 50px;
+    bottom: 104px;
+    color: rgb(0, 255, 85);
+}
+#A{
+    position: relative;
+    left: 90px;
+    bottom: 214px;
+    color: rgb(0, 60, 255);
+}
+#S{
+    position: relative;
+    left: 120px;
+    bottom: 324px;
+    color: rgb(234, 0, 255);
+}
+#A1{
+    position: relative;
+    left: 160px;
+    bottom: 434px;
+    color: rgb(255, 208, 0);
+}
+#L1{
+    position: relative;
+    left: 230px;
+    bottom: 530px;
+    color: rgb(157, 255, 0);
+}
+#C{
+    position: relative;
+    left: 260px;
+    bottom: 640px;
+    color: rgb(173, 134, 224);
+}
+#R{
+    position: relative;
+    left: 360px;
+    bottom: 734px;
+    color: rgb(163, 47, 95);
+}
+#C1{
+    position: relative;
+    left: 400px;
+    bottom: 844px;
+    color: rgb(49, 228, 109);
+}
+#E{
+    position: relative;
+    left: 430px;
+    bottom: 944px;
+    color: rgb(107, 192, 68);
+}
+#Z{
+    position: relative;
+    left: 460px;
+    bottom: 1064px;
+    color: rgb(255, 0, 212);
+}
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+}
+body{
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}

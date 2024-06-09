@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zegarek</title>
+    <script>
+        function zegar(){
+            let czas = new Date()
+            let godzina = czas.getHours(); if (godzina <=9) { godzina = "0" + godzina}
+            let minuta = czas.getMinutes(); if (minuta <=9) { minuta = "0" + minuta}
+            let sekunda = czas.getSeconds(); if (sekunda <=9) { sekunda = "0" + sekunda}
+            nazwa_formularza.pole.value = godzina + ":" + minuta + ":" + sekunda
+        }
+        setInterval("zegar()", 1000)
+    </script>
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form id="form1" name="nazwa_formularza">
+     <input id="input1" maxlength="8" size="6" type="text" value="" name="pole">    
+    </form>
+    <style>
+        #form1{
+            margin-left: 330px;
+            margin-top: 200px;
+        }
+        #input1{
+      width: 1150px;
+      height: 300px;
+      font-size: 400px;
+      
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+        }
+    </style>
+</body>
+</html>

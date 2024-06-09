@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie7</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap" rel="stylesheet">
+<style>
+     INPUT {
+    background-color: black;
+    color: white;
+   }
+    *{
+        font-family: 'Poltawski Nowy', serif;
+        color: white;
+        font-size: 15px;
+    }
+    div{
+    width: 1000px;
+    margin:auto;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.7);  
+    padding: 20px;
+    border-radius: 30px;
+}
+ 
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 130%;
+}
+.overlay {
+    background: rgba(0,0,0,0.0);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+</style>
+</head>
+<body>
+    <div class="fullscreen-bg">
+        <div class="overlay">
+            <div>
+                  <table border="0px">
+                    <tr>
+                        <td>Login</td>
+                        <td><input type="text" name="imie" placeholder="imie"></td>
+                    </tr>
+                    <tr>
+                        <td>Hasło</td>
+                        <td><input type="password" name="haslo" placeholder="Hasło"></td>
+                    </tr>
+                    <tr>
+                        <td>Miasto</td>
+                        <td><input type="text" name="miasto" placeholder="miasto"></td>
+                    </tr>
+                    <tr>
+                        <td>Kod pocztowy</td>
+                        <td><input type="number" name="kod pocztowu" placeholder="kod pocztowy"></td>
+                    </tr>
+                    <tr>
+                        <td>ulica</td>
+                        <td><input type="text" name="ulica" placeholder="ulica"></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail</td>
+                        <td><input type="text" name="e-mail" placeholder="e-mail"></td>
+                    </tr>
+                    <tr>
+                        <td>Wiek</td>
+                        <td><input type="number" name="wiek" placeholder="wiek"></td>
+                    </tr>
+                    <tr>
+                        <td>Znajomość języków - 4 języki</td>
+                        <td><form> 
+                                <input type="checkbox" name="języki" value="niemecki"> niemecki <br>
+                                <input type="checkbox" name="języki" value="angelski"> angelski <br>
+                                <input type="checkbox" name="języki" value="Francuski"> Francuski <br>
+                                <input type="checkbox" name="języki" value="Japonski"> Japonski <br>
+                            </form></td>
+                    </tr>
+                    <tr>
+                        <td>Wykształcenie</td>
+                        <td><form> 
+                                <input type="radio" name="wyksz" value="podst"> podstawowe <br>
+                                <input type="radio" name="wyksz" value="sr"> średnie <br>
+                                <input type="radio" name="wyksz" value="wyz"> wyższe <br>
+                            </form></td>
+                    </tr>
+                    <tr>
+                        <td>Płeć</td>
+                        <td><form>
+                            <select name="wiek">
+                                <option>kobieta</option>
+                                <option>męczyzna</option>
+                            </select>
+                        </form></td>
+                    </tr>
+                    <tr>
+                        <td>Cena od</td>
+                        <td><input type="number" name="cena od" placeholder="cena od"></td>
+                    </tr>
+                    <tr>
+                        <td>Cena do</td>
+                        <td><input type="number" name="cena do" placeholder="cena do"></td>
+                    </tr>
+                    <tr>
+                        <td>Uwagi</td>
+                        <td>   <input type="type" name="Uwagi" value="Uwagi"></td>
+                    </tr>
+                    <tr>
+                        <td>Zgoda na przetwarzanie danych osobowych</td>
+                        <td><input type="checkbox" name="Pamiętaj mnie" value="Remember me"> <b></b></td>
+                    </tr>
+                    <tr>
+                        <td>Pryciski:</td>
+                        <td>
+                            <input type="reset" value="WYCZYŚC">
+                            <input type="submit" value="WYŚLI">
+                        </td>
+                    </tr>
+                  </table>
+            <hr>
+            Podaj imie: <input type="text" name="imie" placeholder="imie"><br>
+            Podaj Nazwisko: <input type="text" name="nazwisko" placeholder="nazwisko"><br>
+            PESEL: <input type="text" name="imie" placeholder="imie" maxlength="11"><br>
+            Kod pocztowy:<input type="text" name="kodpocztowy" maxlength="2">-<input type="text" name="kodpocztowy2" maxlength="3"><br>
+            Płeć:<form>
+                <select name="wiek">
+                    <option>kobieta</option>
+                    <option>męczyzna</option>
+                </select>
+            </form>
+            Podaj Województwo: <form>
+                <select name="wiek">
+                    <option>dolnośląskie</option>
+                    <option>kujawsko-pomorskie</option>
+                    <option>lubelskie</option>
+                    <option>lubuskie</option>
+                    <option>łódzkie</option>
+                    <option>małopolskie</option>
+                    <option>mazowieckie</option>
+                    <option>opolskie</option>
+                    <option>podkarpackie</option>
+                    <option>podlaskie</option>
+                    <option>pomorskie</option>
+                    <option>śląskie</option>
+                    <option>świętokrzyskie</option>
+                    <option>warmińsko-mazurskie</option>
+                    <option>wielkopolskie</option>
+                    <option>zachodniopomorskie</option>
+                </select>
+            </form>
+            Zainteresowania:
+            <form> 
+                <input type="checkbox" name="hobby" value="niemecki"> Nauka języków obcych<br>
+                <input type="checkbox" name="hobby" value="puzzli"> Układanie puzzli <br>
+                <input type="checkbox" name="hobby" value="sudoku"> Rozwiązywanie krzyżówek i sudoku <br>
+                <input type="checkbox" name="hobby" value="instumenty"> Gra na instrumencie <br>
+                <input type="checkbox" name="hobby" value="grawquizy"> Gra w quizy sprawdzające wiedzę <br>
+                <input type="checkbox" name="hobby" value="grawkarty"> Gra w karty <br>
+                <input type="checkbox" name="hobby" value="Medytacja"> Medytacja <br>
+                <input type="checkbox" name="hobby" value="Sport"> Sport <br>
+            </form>
+                </div>
+        </div>
+        <video loop="" muted="" autoplay="" poster="video/plane.jpg" class="fullscreen-bg__video">
+            <source src="videoback.mp4" type="video/mp4">
+            <source src="video/plane.webm" type="video/webm">
+        </video>
+    </div>
+</body>
+</html>

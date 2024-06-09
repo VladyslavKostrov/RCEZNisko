@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 9</title>
+</head>
+<body>
+    <div>
+        <h1>Załoguj Się</h1>
+        <form> 
+        <input type="text" name="imie" placeholder="imie"><br>
+        <input type="password" name="haslo" placeholder="Hasło"><br>
+        <input type="reset" value="WYCZYŚC"> <br>
+		<input type="submit" value="WYŚLI"> <br>
+    </form>
+    <script>
+        let haslo=prompt("Wpisz swoje hasło")
+        if (haslo==12345678){
+document.write("Poprawnie Hasło")
+        }
+        else {
+            alert("Niepoprawne Hasło")
+            document.write("Niepoprawne Hasło")
+        }
+        if (haslo=="") {
+            document.wirte("Wpisz Hasło")
+        }
+    </script>
+</body>
+</html>

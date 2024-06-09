@@ -1,0 +1,52 @@
+*{
+  font-family: "Red Rose", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#table1{
+    height: 400px;
+    width: 700px;
+}
+#trblack{
+    background-color: black;
+    color: white;
+}
+#trbrown{
+    background-color: brown;
+    color: white;
+}
+#trred{
+    background-color: red;
+}
+#trorange{
+    background-color: orange;
+}
+#tryellow{
+    background-color: yellow;
+}
+#trgreen{
+    background-color: greenyellow;
+}
+#trblue{
+    background-color: cyan;
+}
+#trviolet{
+    background-color: violet;
+}
+#trgrey{
+    background-color: gray;
+}
+#trwhite{
+    background-color: white;
+}
+#trgold{
+    background-color: gold;
+}
+#trsilver{
+    background-color: silver;
+}
+#button1:active{
+    background-color: red;
+}

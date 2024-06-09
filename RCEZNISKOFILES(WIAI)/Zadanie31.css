@@ -1,0 +1,100 @@
+
+*{
+    color: rgb(32, 32, 32);
+   font-size: 20px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: italic;
+}
+#form1{
+    position: absolute;
+    left: 1130px;
+}
+#zegar{
+width: 100px;
+height: 25px;
+font-size: 25px;
+}
+form{
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+    padding: 30px;
+    margin-top: 40px;
+    max-width: 650px;
+    border-radius: 30px;
+}
+#form1{
+    position: absolute;
+    padding: 20px;
+    border-radius: 30px;
+    left: 1330px ;
+    bottom: 840px;
+    max-width: 110px;
+}
+#input1{
+    position: absolute;
+    border-radius: 16px;
+    left: 580px;
+    top: 580px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#input2{
+    position: absolute;
+    border-radius: 16px;
+    left: 490px;
+    top: 580px;
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+input{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3)
+}
+body{
+    background-image: url("backGif.gif");
+    background-color: #cccccc;
+    background-size: 2100px;
+    background-position-x: 2100PX;
+    background-repeat:unset;
+    max-height: 10px;
+}
+#output{
+    color: black;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    max-width: 670px;
+    padding: 20px;
+}
+
+textarea{
+    color: black;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

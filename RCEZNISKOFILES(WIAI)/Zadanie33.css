@@ -1,0 +1,43 @@
+body{
+    margin: 30px, 30px , 30px, 150px;
+    padding: 0;
+    background-image: url();
+}
+#top{
+    width: 1366px;
+}
+#naglowek{
+    width: 1366px;
+    height: 160px;
+    background-color: grey;
+    color: red;
+}
+#menu{
+    width: 300px;
+    height: 528px;
+    float: left;
+    overflow: hidden;
+    background-color: darkgrey;
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}
+#tresc{
+    background-color: silver;
+    width: 1066px;
+    height: 528px;
+    overflow: hidden;
+    float: left;
+    color: red;
+    font-size: 70px;
+    background-image: url(catfriends.jpg);
+}
+#Stopka{
+    clear: both;
+    background-color: grey;
+    width: 1366px;
+    height: 80px;
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}

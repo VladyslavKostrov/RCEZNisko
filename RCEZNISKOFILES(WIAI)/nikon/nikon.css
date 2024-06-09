@@ -1,0 +1,41 @@
+
+.cart {
+    height: auto;
+    padding: 25px 0;
+    margin-left: 25%;
+    padding-top: 4%;
+    line-height: 1.25;
+    transition: 0.5s;
+    position: relative;
+    display: inline;
+}
+
+h1.block2 {
+    color: #404040;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+}
+table{
+    padding: 20px;
+}
+body{
+   background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.8)), url(/images/OptimizelySmallDesktopWebP-_1_.jpeg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 2000px;
+}
+*{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+#p1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}

@@ -1,0 +1,68 @@
+#top{
+background-color: rgb(255, 141, 255);
+position: fixed;
+min-height: 10%;
+min-width: 100%;
+}
+#left{
+background-color: rgb(184, 39, 241);
+position: fixed;
+min-width: 15%;
+min-height: 100%;
+
+}
+#center{
+background-color: rgb(228, 228, 228);
+position: fixed;
+min-height:81%;
+min-width: 70%;
+left: 288px;
+top: 90px;
+}
+#right{
+background-color: pink;
+position: fixed;
+min-width: 15%;
+min-height: 100%;
+left: 1632px;
+}
+#bottom{
+background-color: rgb(255, 0, 157);
+position: fixed;
+min-width: 100%;
+min-height: 10%;
+top: 860px;
+}
+body{
+    margin: 0px;
+}
+#idleft1{
+    position: fixed;
+    bottom: 700px;
+    left: 20px;
+
+}
+#idleft2{
+    position: fixed;
+    bottom: 600px;
+    left: 20px;
+}
+#idleft3{
+    position: fixed;
+    bottom: 500px;
+    left: 20px;
+}
+*{
+    font-size: 50px;
+}
+#form1{
+    position: fixed;
+    bottom: 790px;
+    right: 10px;
+}
+#p1{
+    position: fixed;
+    left: 800px;
+    top: -110px;
+    font-size: 100px;
+}

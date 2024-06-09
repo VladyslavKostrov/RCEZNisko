@@ -1,0 +1,11 @@
+table {
+    margin: 50px;
+    border-style: double;
+    border-color: rgb(223, 9, 252);
+}
+body{
+    background-image: url("gifbackpixel.gif");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-position: -40px;
+}

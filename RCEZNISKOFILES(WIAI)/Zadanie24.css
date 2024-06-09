@@ -1,0 +1,14 @@
+#column1,#column2,#column3{
+    float: left;
+    width: 33%;
+}
+#column1{
+    background-color: pink;
+}
+#column2{
+    background-color: rgb(192, 242, 255);
+}
+#column3{
+    background-color: rgb(207, 255, 192);
+}
+

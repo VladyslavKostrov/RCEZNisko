@@ -1,0 +1,21 @@
+*{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#table1{
+    background-color:darkorange;
+    font-family: 'Times New Roman', Times, serif;
+}
+#imie{
+    background-color: rgb(243, 67, 13);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#nazwisko{
+    background-color: rgb(204, 94, 43);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#plec{
+    background-color: rgb(207, 128, 23);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

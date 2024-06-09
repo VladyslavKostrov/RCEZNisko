@@ -1,0 +1,23 @@
+*{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 25px;
+}
+#div1{
+    width:375px;
+    margin:auto;
+    margin-top: 250px;
+    background-color: rgba(185, 173, 173, 0.7);  
+    padding: 20px;
+    border-radius: 30px;
+}
+input[type=reset]{
+    font-weight: bold;
+}
+input[type=submit]{
+    font-weight: bold;
+}
+body {
+    background-image: url("backGif.gif");
+    background-repeat: no-repeat;
+    background-size: 2100px;
+   }

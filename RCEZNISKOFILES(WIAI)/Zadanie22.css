@@ -1,0 +1,58 @@
+#td1{
+    width: 138px;
+}
+#table1{
+margin-top: 250px;
+}
+#table3{
+    margin-top: 50px;
+}
+.td1{
+width: 40px;
+height: 40px;
+}
+#imie, #nazwisko, #wiek, #textarea{
+    width: 148px;
+}
+#input1{
+    width: 272px;
+}
+#button1{
+    color: rgb(225, 0, 255);
+    background-color: rgb(74, 9, 100);
+}
+#button2{
+    color: rgb(30, 255, 0);
+    background-color: rgb(9, 100, 29);
+}
+#button3{
+    color: rgb(255, 0, 0);
+    background-color: rgb(100, 9, 9);
+}
+#button4{
+    color: rgb(0, 153, 255);
+    background-color: rgb(9, 86, 100);
+}
+*{
+        font-family: "Walter Turncoat";
+        font-weight: 600;
+        font-style: bolder;
+}
+#table1, #table2{
+    background-color: pink;
+}
+#Liczba1, #Liczba2, #input1{
+    background-color: rgb(255, 139, 158);
+}
+#table3{
+    background-color: rgb(162, 243, 243);
+}
+#imie, #nazwisko, #wiek{
+    background-color: rgb(96, 255, 255);
+}
+#textarea{
+    background-color: rgb(150, 109, 245);
+}
+#reset:hover, #submit:hover{
+    background-color: rgb(255, 0, 191);
+}
